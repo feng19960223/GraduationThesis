@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_member_manage"
+            android:icon="@drawable/ic_item_member"
+            android:title="@string/string_menu_member_manage"/>
+        <item
+            android:id="@+id/menu_activity_manage"
+            android:icon="@drawable/ic_item_work"
+            android:title="@string/string_menu_activity_manage"/>
+        <item
+            android:id="@+id/menu_bill_manage"
+            android:icon="@drawable/ic_item_bill"
+            android:title="@string/string_menu_bill_manage"/>
+        <item
+            android:id="@+id/menu_map"
+            android:icon="@drawable/ic_item_map"
+            android:title="@string/string_menu_map"/>
+        <item
+            android:id="@+id/menu_weather"
+            android:icon="@drawable/ic_item_weather"
+            android:title="@string/string_menu_weather"/>
+        <item
+            android:id="@+id/menu_quit"
+            android:icon="@drawable/ic_item_quit"
+            android:title="@string/string_menu_quit"/>
+        <item
+            android:id="@+id/menu_set"
+            android:icon="@drawable/ic_item_settings"
+            android:title="@string/string_menu_set"/>
+    </group>
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/MyToolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#F0F0F0"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <com.fgr.aabao.widget.ClearEditText
+            android:id="@+id/et_forget"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:digits="@string/rule"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="4dp"
+            android:hint="@string/string_mail"
+            android:maxLines="1"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <com.fgr.aabao.widget.InverseColorButton
+        android:id="@+id/btn_forget_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="30dp"
+        android:text="@string/string_do"
+        android:textSize="20sp"
+        app:inverseColor="#2097E1"
+        app:whiteFillFirst="false"/>
+</LinearLayout>

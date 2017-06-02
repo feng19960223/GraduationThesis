@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">记录客</string>
+    <string name="string_menu_member_manage">成员管理</string>
+    <string name="string_menu_activity_manage">事务管理</string>
+    <string name="string_menu_bill_manage">历史记录</string>
+    <string name="string_menu_game_entertainmen">游戏娱乐</string>
+    <string name="string_menu_map">地图</string>
+    <string name="string_menu_weather">天气</string>
+    <string name="string_menu_about">关于</string>
+    <string name="string_menu_quit">退出</string>
+    <string name="string_menu_set">设置</string>
+    <string name="string_nav_header_username">冯国芮</string>
+    <string name="string_nav_header_mail">594878760@qq.com</string>
+    <string name="string_again_quit">再次点击/点击确定，退出应用</string>
+    <string name="string_do">确定</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_warning">提示</string>
+    <string name="string_warning_quit">点击确定，退出应用！你确定要退出应用吗？</string>
+    <string name="string_map_key">关键字</string>
+    <string name="string_map_route">路线信息</string>
+    <string name="string_map_info">我的位置</string>
+    <string name="string_map_normal">2D地图</string>
+    <string name="string_map_sate">卫星地图</string>
+    <string name="string_map_must">必须同意所有权限才能使用本程序</string>
+    <string name="string_map_unknown">发生未知错误</string>
+    <string name="string_map_failure">定位未成功，无能搜索附近，请重试！</string>
+    <string name="string_map_nothing">暂无到该区域的信息</string>
+    <string name="string_map_share">分享位置</string>
+    <string name="string_map_from">来自记录宝的分享</string>
+    <string name="string_map_hint">AaBao调用的系统分享</string>
+    <string name="string_city">城市</string>
+    <string name="string_city_no">加载失败</string>
+    <string name="string_city_ing">正在加载&#8230;</string>
+    <string name="string_weather_forecast">预报</string>
+    <string name="string_weather_quality">天气质量</string>
+    <string name="string_weather_aqi">AQI指数</string>
+    <string name="string_weather_pm25">PM2.5指数</string>
+    <string name="string_weather_suggest">生活建议</string>
+    <string name="string_weather_no">获取天气信息失败</string>
+    <string name="string_login_username">账号/邮箱</string>
+    <string name="string_password">密码</string>
+    <string name="string_login">登录</string>
+    <string name="string_login_register">立即注册</string>
+    <string name="string_login_forget">忘记密码</string>
+    <string name="string_login_other">其他登录方式</string>
+    <string name="string_forget_username">账号:</string>
+    <string name="string_mail">邮箱“xxx@163.com”</string>
+    <string name="string_forget_seek">密码找回</string>
+    <string name="string_register">注册</string>
+    <string name="string_register_name">账号</string>
+    <string name="string_password_again">密码确认</string>
+    <string name="string_register_have">已有账号，立即登录</string>
+    <string name="string_register_treaty">注册即视为同意AaBao《用户服务协议》和《隐藏政策》</string>
+    <string name="string_treaty">政策和协议</string>
+    <string name="string_icon">选择头像</string>
+    <string name="string_add_member">成员新增</string>
+    <string name="string_add_person">添加成员</string>
+    <string name="string_alter_member">信息修改</string>
+    <string name="string_look">详细信息</string>
+    <string name="string_add_work">事务新建</string>
+    <string name="string_alter_work">事务更新</string>
+    <string name="string_save">保存</string>
+    <string name="string_activate">邮箱激活</string>
+    <string name="string_password_length">密码最大长度是24</string>
+    <string name="string_login_again">用户过期，请重新登录</string>
+    <string name="string_email_edit">更换邮箱</string>
+    <string name="string_cache">清理缓存</string>
+    <string name="string_reset_password">密码重置</string>
+    <string name="string_quit_user">退出账号</string>
+    <string name="string_name">姓名</string>
+    <string name="string_phone">手机</string>
+    <string name="string_company">公司</string>
+    <string name="string_profession">职位</string>
+    <string name="string_location">地址</string>
+    <string name="string_dears">昵称</string>
+    <string name="string_birthday">生日</string>
+    <string name="string_other">其他</string>
+    <string name="string_remark">备注</string>
+    <string name="string_work">名称</string>
+    <string name="string_address">地点</string>
+    <string name="string_time">时间</string>
+    <string name="string_alter">修改</string>
+    <string name="string_delete">删除</string>
+    <string name="string_work_add">加人</string>
+    <string name="string_history">完成</string>
+    <string name="string_1">美食</string>
+    <string name="string_2">酒店</string>
+    <string name="string_3">公交站</string>
+    <string name="string_4">医院</string>
+    <string name="string_5">网吧</string>
+    <string name="string_6">停车场</string>
+    <string name="string_7">银行</string>
+    <string name="string_8">加油站</string>
+    <string name="string_remember">记住密码</string>
+    <string name="string_aam_add">添加事务参与成员</string>
+    <string name="string_delete_what">确定要删除吗?</string>
+    <string name="rule">0123456789qwertyuiopasdfghjklzxcvbnmqwertyuiopasdfghjklzxcvbnm._&#064;</string>
+
+
+    <string-array name="tab_names">
+        <item>成员管理</item>
+        <item>事务管理</item>
+        <item>历史记录</item>
+        <item>地图</item>
+        <item>天气</item>
+    </string-array>
+    <string-array name="map_function">
+        <item>功能</item>
+        <item>开启交通图</item>
+        <item>关闭交通图</item>
+        <item>开启热力图</item>
+        <item>关闭热力图</item>
+    </string-array>
+</resources>

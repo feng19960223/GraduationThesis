@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.baidu.mapapi.map.TextureMapView
+            android:id="@+id/mapview_fragment_map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"/>
+
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#88FFFFFF"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+
+            <com.fgr.aabao.widget.ClearEditText
+                android:id="@+id/edittext_fragment_map_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/string_map_key"
+                android:maxLines="1"/>
+
+            <ImageView
+                android:id="@+id/imageview_fragment_map_search"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="5dp"
+                android:src="@drawable/ic_search"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_1"
+                app:inverseColor="#5500A3E8"
+                app:whiteFillFirst="false"/>
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_2"
+                app:inverseColor="#55FF7F26"
+                app:whiteFillFirst="false"/>
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_3"
+                app:inverseColor="#55880012"
+                app:whiteFillFirst="false"/>
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_4"
+                app:inverseColor="#55ED1B22"
+                app:whiteFillFirst="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_5"
+                app:inverseColor="#55FEF200"
+                app:whiteFillFirst="false"/>
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_6"
+                app:inverseColor="#5523B12D"
+                app:whiteFillFirst="false"/>
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_7"
+                app:inverseColor="#55FFC90D"
+                app:whiteFillFirst="false"/>
+
+            <com.fgr.aabao.widget.InverseColorButton
+                android:id="@+id/b8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/string_8"
+                app:inverseColor="#55FEAEC9"
+                app:whiteFillFirst="false"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageview_fragment_map_location"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="35dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_location"/>
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textview_fragment_map_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/string_map_info"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.fgr.aabao.widget.InverseColorButton
+            android:id="@+id/button_fragment_map_normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/string_map_normal"
+            app:inverseColor="#6699CC"
+            app:whiteFillFirst="false"
+            />
+
+        <com.fgr.aabao.widget.InverseColorButton
+            android:id="@+id/button_fragment_map_sate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="@string/string_map_sate"
+            app:inverseColor="#99CC99"
+            app:whiteFillFirst="false"/>
+
+        <Spinner
+            android:id="@+id/spinner_fragment_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+</LinearLayout>
